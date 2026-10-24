@@ -20,3 +20,6 @@ dist/
 
 # Local logs
 *.log
+
+# personal learning
+docs/learning-notes.md
