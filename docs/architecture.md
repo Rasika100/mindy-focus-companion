@@ -79,3 +79,11 @@ Calibration will not train a new machine-learning model or independently determi
 This document describes the planned architecture. Components and behaviors will be marked as implemented only after they have been built and tested.
 
 The architecture may change as development reveals better implementation choices.
+
+## Webcam Capture — Initial Test
+
+OpenCV accesses the default webcam through `cv2.VideoCapture(0)`. The `read()` method returns a success flag and a frame containing image data represented as a NumPy array.
+
+The temporary camera test repeatedly captures and displays frames inside a `while` loop. Pressing `Q` exits the loop, after which the camera is released and OpenCV windows are closed.
+
+**Current limitation:** This is a standalone test. The webcam is not yet connected to Mindy's PySide6 interface, behavior analyzer, or monitoring controls.

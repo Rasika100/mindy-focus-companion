@@ -18,3 +18,23 @@ The application is designed to process webcam data locally, with the goal of kee
 - Publish the project and its development history on GitHub.
 
 **Status:** In development 🚧
+
+## Current Progress
+
+### Webcam Access Test
+- Installed OpenCV and NumPy in the project's virtual environment.
+- Verified that Python can capture a webcam frame.
+- Displayed a live webcam preview using OpenCV.
+- Added keyboard control to exit the preview by pressing `Q`.
+
+**Status:** Webcam access and live preview have been tested using a temporary `camera_test.py` script. Webcam monitoring is not yet integrated into Mindy's main application.
+
+### Run the Webcam Test
+
+With the project's virtual environment activated, run:
+
+```powershell
+python camera_test.py
+```
+
+Press `Q` while the preview window is active to exit.
