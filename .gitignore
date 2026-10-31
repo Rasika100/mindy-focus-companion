@@ -23,3 +23,7 @@ dist/
 
 # personal learning
 docs/learning-notes.md
+
+# Local models and alert media
+models/
+assets/
